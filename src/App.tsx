@@ -1,10 +1,10 @@
-import { Header } from '~/components'
-import './App.css'
+import { Header, Hero } from '~/components'
 
 const App = () => {
   return (
     <div className="wrapper bg-darknavy text-white">
       <Header />
+      <Hero />
     </div>
   )
 }

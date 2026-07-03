@@ -1,0 +1,10 @@
+@layer components {
+  .button {
+    @apply bg-teal-600 p-2;
+    container-name: button;
+  }
+
+  .button-outline {
+    @apply bg-transparent border border-teal-600 text-neutral-300;
+  }
+}

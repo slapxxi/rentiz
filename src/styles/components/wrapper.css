@@ -4,6 +4,7 @@
     grid-template-columns:
       [wide] 1fr [main] minmax(auto, 1420px)
       [main-end] 1fr [wide-end];
+    grid-template-rows: min-content;
     column-gap: calc(var(--spacing) * 4);
     min-height: 100vh;
   }
