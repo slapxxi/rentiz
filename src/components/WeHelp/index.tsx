@@ -4,8 +4,8 @@ import pic5Image from '~/assets/pic-5.jpg'
 export const WeHelp = () => {
   return (
     <div className="col-[wide] my-10 grid grid-cols-subgrid gap-10 bg-darknavy-900 py-40">
-      <div className="col-[main] grid grid-cols-2 gap-10">
-        <div className="grid grid-cols-2 gap-4">
+      <div className="col-[main] grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 auto-rows-fr gap-4">
           <img src={pic4Image} alt="" className="h-full object-cover" />
           <img src={pic5Image} alt="" className="h-full object-cover" />
         </div>
@@ -21,7 +21,7 @@ export const WeHelp = () => {
             Blandit aliquam donec sed morbi congue eget lorem viverra porta id
             lobortis.
           </p>
-          <button className="button justify-self-start px-10 py-5 text-2xl">
+          <button className="button md:justify-self-start px-10 py-5 text-2xl">
             Get in Touch
           </button>
         </div>
