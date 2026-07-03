@@ -3,7 +3,7 @@ import config from './config'
 
 export const Header = () => {
   return (
-    <header className="col-main flex items-center my-10 gap-4">
+    <header className="col-[main] flex items-center my-10 gap-4">
       <a href="#">
         <Logo className="w-30" />
       </a>
