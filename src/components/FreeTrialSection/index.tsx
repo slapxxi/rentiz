@@ -1,0 +1,44 @@
+import cardImage from '~/assets/card.png'
+import CheckmarkIcon from '~/assets/checkmark.svg?react'
+import FreeTrial from '~/assets/free-trial.svg?react'
+import config from './config'
+
+export const FreeTrialSection = () => {
+  return (
+    <div className="col-2 my-8 grid grid-cols-[1.2fr_minmax(10px,60px)_1fr]">
+      <div className="-ml-8 grid grid-cols-[1fr_100px] self-center">
+        <div className="mt-7 z-10 col-1 row-1 ml-8 leading-[120%] font-semibold">
+          <h3 className="font-title text-6xl">Try Kvilon</h3>
+          <h4 className="font-title text-6xl text-bronze">Free for 14 days</h4>
+        </div>
+        <img
+          src={cardImage}
+          alt=""
+          className="col-1 row-1 w-full mask-l-from-85%"
+        />
+        <FreeTrial className="mt-7 size-50 justify-self-end z-10" />
+      </div>
+
+      <div className="col-3 grid max-w-3xl gap-4 place-self-center">
+        <div className="text-2xl">
+          Your demo account is ready — pre-filled with real marine insurance
+          data. No setup, no IT department, no commitment
+        </div>
+        <ul className="grid min-h-80 content-center gap-12">
+          {config.demoFeatures.map((item) => (
+            <li
+              key={item}
+              className="flex items-center gap-2 font-title text-4xl"
+            >
+              <CheckmarkIcon className="size-4" />
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+        <button className="btn justify-self-start">
+          <span>Start Free Trial</span>
+        </button>
+      </div>
+    </div>
+  )
+}

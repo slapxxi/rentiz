@@ -1,0 +1,10 @@
+@layer components {
+  .wrapper {
+    display: grid;
+    grid-template-columns:
+      [wide] 1fr [main] minmax(auto, 1420px)
+      [main-end] 1fr [wide-end];
+    column-gap: calc(var(--spacing) * 4);
+    min-height: 100vh;
+  }
+}
