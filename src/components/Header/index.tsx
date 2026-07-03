@@ -9,7 +9,7 @@ export const Header = () => {
       </a>
 
       <nav className="ml-auto">
-        <ul className="flex gap-5 items-center">
+        <ul className="hidden md:flex flex-wrap gap-5 items-center">
           {config.nav.map((item, i) => (
             <li key={i}>
               <a

@@ -4,8 +4,8 @@ import config from './config'
 
 export const Hero = () => {
   return (
-    <section className="col-[main] grid grid-cols-2 grid-rows-[1.4fr_1fr] gap-y-10 self-start">
-      <div className="col-1 self-end">
+    <section className="col-[main] grid md:grid-cols-2 md:grid-rows-[1.4fr_1fr] gap-y-10 self-start">
+      <div className="col-1 md:self-end">
         <h2 className="text-[68px] leading-tight font-semibold">
           Perfect way to buy and sell a home
         </h2>
@@ -15,11 +15,11 @@ export const Hero = () => {
         </p>
       </div>
 
-      <div className="col-2 row-span-full self-center">
+      <div className="md:col-2 row-span-full self-center">
         <img src={houseImage} alt="" className="w-full" />
       </div>
 
-      <form className="col-[1/3] row-2 grid grid-cols-subgrid self-start">
+      <form className="md:col-[1/3] md:row-2 grid grid-cols-subgrid self-start">
         <div className="grid grid-cols-3 bg-white">
           {config.inputs.map((input, i) => (
             <div
@@ -36,7 +36,7 @@ export const Hero = () => {
             </div>
           ))}
         </div>
-        <div className="grid justify-self-start bg-white p-1 pl-0">
+        <div className="grid md:justify-self-start bg-white md:p-1 pl-0">
           <button className="button px-10 text-2xl">Search</button>
         </div>
       </form>
