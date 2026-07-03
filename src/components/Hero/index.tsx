@@ -15,7 +15,7 @@ export const Hero = () => {
         </p>
       </div>
 
-      <div className="col-2 row-span-full">
+      <div className="col-2 row-span-full self-center">
         <img src={houseImage} alt="" className="w-full" />
       </div>
 
