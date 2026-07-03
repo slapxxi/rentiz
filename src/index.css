@@ -7,3 +7,11 @@
 
 @import '~/styles/components/wrapper.css';
 @import '~/styles/components/button.css';
+
+.geo-section {
+  @apply bg-darknavy-800;
+  background-image: url('~/assets/geo-pattern.png');
+  background-size: 200%;
+  background-position: calc(50% + 340px) center;
+  padding: 160px 0;
+}
