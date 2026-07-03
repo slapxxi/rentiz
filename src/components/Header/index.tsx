@@ -10,8 +10,8 @@ export const Header = () => {
 
       <nav className="ml-auto">
         <ul className="flex gap-5 items-center">
-          {config.nav.map((item, index) => (
-            <li key={index}>
+          {config.nav.map((item, i) => (
+            <li key={i}>
               <a
                 href="#"
                 className="font-medium border-b border-transparent 
