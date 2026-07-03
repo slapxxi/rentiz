@@ -3,8 +3,8 @@ import { FeaturedIn, Header, Hero } from '~/components'
 
 const App = () => {
   return (
-    <div className="z-10 wrapper bg-darknavy text-white">
-      <div className="-z-1 absolute col-[3/4] row-[2/3] translate-y-1/2 self-end justify-self-end">
+    <div className="wrapper z-10 bg-darknavy text-white">
+      <div className="absolute -z-1 col-[3/4] row-[2/3] ml-[min(50%,132px)] translate-y-1/2 self-end justify-self-start">
         <img src={decorImage} alt="" className="min-w-45" />
       </div>
 
