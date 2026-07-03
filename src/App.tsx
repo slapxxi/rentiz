@@ -2,6 +2,7 @@ import decorImage from '~/assets/decor-1.svg'
 import {
   Begin,
   FeaturedIn,
+  Footer,
   Header,
   Hero,
   Properties,
@@ -23,6 +24,7 @@ const App = () => {
       <WhyUs />
       <WeHelp />
       <Begin />
+      <Footer />
     </div>
   )
 }
