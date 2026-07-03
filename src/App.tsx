@@ -1,5 +1,5 @@
 import decorImage from '~/assets/decor-1.svg'
-import { FeaturedIn, Header, Hero, Properties } from '~/components'
+import { FeaturedIn, Header, Hero, Properties, WhyUs } from '~/components'
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <Hero />
       <FeaturedIn />
       <Properties />
+      <WhyUs />
     </div>
   )
 }

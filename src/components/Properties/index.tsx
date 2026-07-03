@@ -15,7 +15,7 @@ export const Properties = () => {
       <div className="col-[main] grid gap-4 md:col-[wide] md:grid-cols-[1fr_minmax(auto,1680px)_1fr]">
         <div className="grid gap-12.5 md:col-2 md:row-span-4 md:grid-cols-[auto_1fr_auto] md:grid-rows-subgrid">
           <button className="hidden size-20 place-items-center self-center rounded-full border border-white md:inline-grid">
-            <ChevronLeft className="w-8" />
+            <ChevronLeft className="h-5" />
           </button>
 
           <ul className="grid gap-8 md:row-span-4 md:grid-cols-3 md:grid-rows-subgrid">
@@ -52,10 +52,14 @@ export const Properties = () => {
           </ul>
 
           <button className="hidden size-20 place-items-center self-center rounded-full border border-white md:inline-grid">
-            <ChevronRight className="w-8" />
+            <ChevronRight className="h-5" />
           </button>
         </div>
       </div>
+
+      <button className="button col-[main] md:justify-self-center text-2xl px-10 py-5">
+        View All Properties
+      </button>
     </div>
   )
 }
