@@ -9,7 +9,7 @@ export const Properties = () => {
   return (
     <div className="geo-section col-[wide] my-10 grid grid-cols-subgrid gap-y-12">
       <div className="col-[main]">
-        <h2 className="text-5xl font-semibold">Popular Residence</h2>
+        <h2 className="text-fluid-5xl font-semibold">Popular Residence</h2>
       </div>
 
       <div className="col-[main] grid gap-4 md:col-[wide] md:grid-cols-[1fr_minmax(auto,1680px)_1fr]">
@@ -29,11 +29,13 @@ export const Properties = () => {
                   alt=""
                   className="aspect-square w-full object-cover"
                 />
-                <h3 className="text-2xl font-semibold text-white">
+                <h3 className="text-fluid-2xl font-semibold text-white">
                   {item.name}
                 </h3>
-                <h4 className="text-lg text-neutral-300">{item.address}</h4>
-                <div className="flex justify-between gap-4">
+                <h4 className="text-fluid-lg text-neutral-300">
+                  {item.address}
+                </h4>
+                <div className="flex gap-4 text-fluid-base">
                   <div className="flex items-center gap-1">
                     <BedIcon className="text-teal-600" />
                     {item.beds} Beds
@@ -57,7 +59,7 @@ export const Properties = () => {
         </div>
       </div>
 
-      <button className="button col-[main] md:justify-self-center text-2xl px-10 py-5">
+      <button className="button col-[main] md:justify-self-center text-fluid-2xl px-10 py-5">
         View All Properties
       </button>
     </div>

@@ -1,0 +1,23 @@
+@utility text-fluid-base {
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+
+@utility text-fluid-lg {
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+}
+
+@utility text-fluid-2xl {
+  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+}
+
+@utility text-fluid-3xl {
+  font-size: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
+}
+
+@utility text-fluid-5xl {
+  font-size: clamp(2.25rem, 1.977rem + 1.36vw, 3rem);
+}
+
+@utility text-fluid-7xl {
+  font-size: clamp(3.75rem, 3.477rem + 1.36vw, 4.5rem);
+}
