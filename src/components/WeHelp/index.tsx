@@ -5,7 +5,7 @@ export const WeHelp = () => {
   return (
     <div className="col-[wide] my-10 grid grid-cols-subgrid gap-10 bg-darknavy-900 py-40">
       <div className="col-[main] grid gap-10 md:grid-cols-2">
-        <div className="grid auto-rows-fr gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-4">
           <img
             src={pic4Image}
             alt=""
